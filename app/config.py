@@ -1,17 +1,19 @@
-import os
-from dataclasses import dataclass
-from dotenv import load_dotenv
+from pathlib import Path
+from pydantic import SecretStr
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
-load_dotenv()
+BASE_DIR = Path(__file__).resolve().parent.parent
 
-@dataclass
-class Settings:
-    bot_token:str
+class Settings(BaseSettings):
+    model_config = SettingsConfigDict(
+        env_file=BASE_DIR / ".env",
+        env_file_encoding="utf-8",
+        case_sensitive=False,
+        extra="ignore",
+    )
 
-def get_settings() -> Settings:
-    token = os.getenv("TOKEN", "").strip()
-    if not token:
-        raise RuntimeError("TOKEN не найден. Укажите его в .env")
-    return Settings(bot_token=token)
+    bot_token: SecretStr
+    redis_url: str = "redis://localhost:6379/0"
+    debug: bool = False
 
-settings = get_settings()
+settings = Settings()

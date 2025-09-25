@@ -5,6 +5,9 @@ from aiogram.types import BotCommand
 
 from app.loader import bot, dp
 from app.handlers import start, echo
+from logger import setup_logging
+
+setup_logging()
 
 logging.basicConfig(
     level=logging.INFO,
