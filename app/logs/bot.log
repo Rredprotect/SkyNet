@@ -1,0 +1,19 @@
+2025-09-11 21:04:31,105 - INFO - aiogram.dispatcher - Start polling
+2025-09-11 21:04:31,177 - INFO - aiogram.dispatcher - Run polling for bot @milkeymil_bot id=7801924467 - 'milkey_way'
+2025-09-11 21:04:51,650 - INFO - aiogram.event - Update id=433479732 is handled. Duration 256 ms by bot id=7801924467
+2025-09-11 21:04:56,558 - INFO - aiogram.event - Update id=433479733 is handled. Duration 328 ms by bot id=7801924467
+2025-09-11 21:05:11,401 - INFO - aiogram.event - Update id=433479734 is handled. Duration 304 ms by bot id=7801924467
+2025-09-11 21:05:16,026 - INFO - aiogram.event - Update id=433479735 is handled. Duration 88 ms by bot id=7801924467
+2025-09-11 21:05:20,159 - INFO - aiogram.event - Update id=433479736 is handled. Duration 113 ms by bot id=7801924467
+2025-09-11 21:13:22,862 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-11 21:13:22,862 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-09-11 21:13:22,862 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7801924467)
+2025-09-11 21:13:23,123 - INFO - aiogram.dispatcher - Polling stopped for bot @milkeymil_bot id=7801924467 - 'milkey_way'
+2025-09-23 19:37:16,256 - INFO - aiogram.dispatcher - Start polling
+2025-09-23 19:37:16,328 - INFO - aiogram.dispatcher - Run polling for bot @milkeymil_bot id=7801924467 - 'milkey_way'
+2025-09-23 19:38:07,288 - INFO - aiogram.event - Update id=433479737 is handled. Duration 302 ms by bot id=7801924467
+2025-09-23 19:38:13,025 - INFO - aiogram.event - Update id=433479738 is handled. Duration 201 ms by bot id=7801924467
+2025-09-23 19:39:38,098 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-23 19:39:38,099 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-09-23 19:39:38,099 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7801924467)
+2025-09-23 19:39:38,362 - INFO - aiogram.dispatcher - Polling stopped for bot @milkeymil_bot id=7801924467 - 'milkey_way'
